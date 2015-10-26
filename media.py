@@ -1,9 +1,11 @@
 import webbrowser
 
-# The Movie Class store info of the movie, 'director' is Class Director object, 'main_actor' is Class Director object
+# The Movie Class store info of the movie, 'director' is Class Director object,
+# 'main_actor' is Class Director object
 class Movie():
 	"""Store Movie Info"""
-	def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube, director, main_actor):
+	def __init__(self, movie_title, movie_storyline, poster_image, 
+				 trailer_youtube, director, main_actor):
 		self.title = movie_title
 		self.storyline = movie_storyline
 		self.poster_image_url = poster_image

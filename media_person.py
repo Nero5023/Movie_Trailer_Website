@@ -15,5 +15,3 @@ class Actor(Person):
 	"""Store Actor Info"""
 	def __init__(self, name, gender, avatar):
 		Person.__init__(self, name, gender, avatar)
-		
-		
